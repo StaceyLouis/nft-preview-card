@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+body{
+    background-color: hsl(217, 54%, 11%);
+   height: 100vh;
+    font-family: Outfit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+
+.component-container{
+    background-color: hsl(216, 50%, 16%);
+    height: 45rem;
+    width: 25rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 1rem 1rem 1rem 1rem hsl(215, 54%, 7%);
+}
+.img{
+    display: flex;
+    padding-bottom: 1rem;
+}
+#equi-img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 1rem;
+}
+.title{
+    color:  hsl(0, 0%, 100%);
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 1rem 0 1rem 0;
+
+}
+
+
+.description{
+    font-family: "Outfit";
+    font-size: 1.3rem;
+    line-height: 1.9rem;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+}
+.eth-component{
+   
+display: flex;
+justify-content: space-between;
+padding: 2rem 0 1.3rem 0;
+}
+#eth{
+    font-weight: 400;
+    color: hsl(178, 100%, 50%);
+    font-size: 1.2rem;
+}
+#days{
+    color: hsl(215, 51%, 70%);
+    font-size: 1.2rem;
+}
+.line{
+    border: 1px solid hsl(215, 32%, 27%);
+}
+.bottom-component{
+    padding: 1rem 0 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content:start;
+}
+
+#profile-photo{
+    width: 10%;
+    border: 1px solid white;
+    border-radius: 50% ;
+    margin-right: 2rem;
+   
+}
+#author{
+    font-size: 1.2rem;
+    text-align: center;
+}
+#blue{
+    color: hsl(215, 51%, 70%);
+}
+#white{
+    color: white;
+}
+.attribution {
+     font-size: 11px; 
+
+position: fixed;
+
+bottom: 0;
+font-size: 1.3rem;
+color: white;
+}
+.attribution a {
+ color: hsl(228, 45%, 44%);
+font-size: 1.3rem;
+ }
