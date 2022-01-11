@@ -277,12 +277,12 @@ font-size: 1.3rem;
     font-size: 11px; 
     position: fixed;
     bottom: 0;
-    font-size: 1.3rem;
+    font-size: 2rem;
     color: white;
     }
     .attribution a {
      color: hsl(228, 45%, 44%);
-    font-size: 1.3rem;
+    font-size: 2rem;
      }
     
     }
