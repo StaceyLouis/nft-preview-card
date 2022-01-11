@@ -1,0 +1,111 @@
+@media screen and (max-width: 375px){
+    .component-container{
+        height: 23.5rem;
+        width: 13rem;
+        box-shadow: none;
+        
+    }
+    .title{
+        font-size: 1.2rem;
+       
+    
+    }
+
+    .description{
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+    }
+    .eth-component{
+   padding: 1rem 0 0.3rem 0;
+        }
+
+    #eth, #days{
+        font-size: 0.7rem;
+    }
+
+    #clock-img{
+        width: 0.7rem;
+    }
+    #eth-img{
+        width: 0.5rem;
+    }
+    .line{
+        border: 0.5px solid hsl(215, 32%, 27%);
+    }
+
+    #author{
+        font-size: 0.7rem;
+        margin-left: -1rem;
+    }
+    .bottom-component{
+        padding: 0;
+    }
+    .attribution {
+        font-size: 11px; 
+        position: fixed;
+        bottom: 0;
+        font-size: 0.5rem;
+        color: white;
+        }
+        .attribution a {
+         color: hsl(228, 45%, 44%);
+        font-size: 0.5rem;
+         }
+        
+}
+
+@media screen and (min-width: 375px){
+    .component-container{
+        height: 23.5rem;
+        width: 13rem;
+        box-shadow: none;
+        
+    }
+    .title{
+        font-size: 1.2rem;
+       
+    
+    }
+
+    .description{
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+    }
+    .eth-component{
+   padding: 1rem 0 0.3rem 0;
+        }
+
+    #eth, #days{
+        font-size: 0.7rem;
+    }
+
+    #clock-img{
+        width: 0.7rem;
+    }
+    #eth-img{
+        width: 0.5rem;
+    }
+    .line{
+        border: 0.5px solid hsl(215, 32%, 27%);
+    }
+
+    #author{
+        font-size: 0.7rem;
+        margin-left: -1rem;
+    }
+    .bottom-component{
+        padding: 0;
+    }
+    .attribution {
+        font-size: 11px; 
+        position: fixed;
+        bottom: 0;
+        font-size: 0.5rem;
+        color: white;
+        }
+        .attribution a {
+         color: hsl(228, 45%, 44%);
+        font-size: 0.5rem;
+         }
+        
+}
